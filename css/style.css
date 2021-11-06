@@ -85,6 +85,7 @@ a:hover {
   box-shadow: 3px 3px #047aed;
   padding: 2px;
   outline: none;
+  caret-color: #047aed;
 }
 
 .url_submit_button {
@@ -94,7 +95,23 @@ a:hover {
   font-family: 'Courier New', Courier, monospace;
   box-shadow: 3px 3px #047aed;
   padding: 2px;
+  color: #047aed;
 }
 .logo {
   color: #047aed;
+}
+
+/* Footer Main */
+.footer_main {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.footer_p {
+  color: grey;
+  font-size: 10px;
+}
+.l {
+  color: grey;
 }
